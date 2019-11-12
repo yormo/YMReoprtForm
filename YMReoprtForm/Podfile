@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'YMReoprtForm' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Masonry'	
+  pod 'TZImagePickerController', '3.2.5'
+  # Pods for YMReoprtForm
+
+  target 'YMReoprtFormTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'YMReoprtFormUITests' do
+    # Pods for testing
+  end
+
+end
